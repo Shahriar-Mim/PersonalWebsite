@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>I am Shahriar Mim</title>
+	<!-- Linking External Style Sheets -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<style type="text/css">
+		#welcome {
+			font-weight: bold; 
+			color: white;
+			font-size: 40px; 
+			position:absolute;
+			top: 30%;
+			left: 42% ; 
+		}
+		#txt{
+			color: pink;
+			font-size: 15px;
+			position: absolute;
+			top: 83%;
+			left: 33%;
+		}
+	</style>
+</head>
+<body>
+		<header>
+
+		<div class="main">
+			<div class ="logo">
+				<img src="mim.png">
+			</div>
+			<ul>
+				
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Me</a></li>
+					<li><a href="repository.html">Repository</a></li>
+					
+				
+			</ul>
+		</div>
+		<div id="welcome"> 
+			<h3>Welcome to</h3>
+		</div>
+		<div class="title">
+			<h1> Shahriar Mim's World </h1>			
+		</div>
+		<div class="handles"> 
+			<h3>Connect with me</h3>
+			</br>
+			<a href="https://www.facebook.com/mdshahriar.aran/"><img src="fb_logo.png" height="50"></a>
+		    </br>
+			<a href="https://www.linkedin.com/in/shahriar-mim-251089153/"><img src="ln_logo.png" height="55"></a>
+			</br>
+			<a href="https://www.youtube.com/channel/UCxQrCvAdi-4ruwrgibNillQ"><img src="youtube_logo.png" height="50"></a>
+		</div>
+		<div class="quote2"> 
+			<h3><b>"Patience is from God</br>
+					Hastiness is from Satan"
+			</b></h3>
+		</div>
+		<p id="txt">Click the button to display the date and time this website was last modified</p>
+		<div class="writer">
+			<h3 style="color: white; font-size: 15px;">-Prophet Muhammad (PBUH)</h3>
+		</div>
+		<div class="history">
+			
+			<button onclick="myFunction()">Try it</button>
+
+				<p id="demo"></p>
+
+			<script>
+				function myFunction() {
+				  var x = document.lastModified;
+				  document.getElementById("demo").innerHTML = x;
+				}
+			</script>
+		</div>
+	</header>
+</body>
+</html>
